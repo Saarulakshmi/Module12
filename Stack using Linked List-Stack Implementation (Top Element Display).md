@@ -22,8 +22,31 @@ The program allows inserting 3 elements from the user and then prints the **top 
 ---
 
 ## 💻 Program
-Add Code Here
+
+```
+
+# Stack implementation using list
+
+stack = []
+
+# Insert 3 elements into stack
+for i in range(3):
+    value = input("Enter value: ")
+    stack.append(value)
+
+# Display top element
+if len(stack) > 0:
+    print("Top element of the stack:", stack[-1])
+else:
+    print("Stack is empty")
+
+```
 
 ## Output
 
+<img width="372" height="228" alt="image" src="https://github.com/user-attachments/assets/67fdda9c-5be9-4e11-97c4-bcfe4413d825" />
+
+
 ## Result
+
+The program successfully implements a stack and displays the top element using stack[-1].
