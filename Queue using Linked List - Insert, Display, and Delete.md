@@ -31,8 +31,39 @@ To write a Python program that:
 ---
 
 ## Program
-Add Code Here
+
+```
+
+# Queue implementation using list (Linked List concept simulation)
+
+queue = []
+
+# Insert elements
+queue.append('a')
+queue.append('b')
+queue.append('c')
+
+# Display initial queue
+print("Queue after elements are inserted:")
+print(queue)
+
+# Delete first element (FIFO)
+deleted_element = queue.pop(0)
+print("\nDeleting the first element inserted:")
+print(deleted_element)
+
+# Display updated queue
+print("\nQueue after the first element is deleted:")
+print(queue)
+
+```
 
 ## Output
 
-## Result
+<img width="576" height="332" alt="image" src="https://github.com/user-attachments/assets/1729379f-88ef-4818-9d0c-880e0532e191" />
+
+
+
+## Result:
+
+The program is excuted successfully and the output is verified
